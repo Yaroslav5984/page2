@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+@font-face{
+font-family: 'IBM Plex Serif';
+src: url('../страница2/IBMPlexSerif-Bold.woff') format('woff');
+}
+
+
+.container_Yaros{
+	background: no-repeat url('images/background.jpg');
+	background-size: cover;
+	min-height: 100vh;
+	padding: 50px 80px 50px 160px;
+	overflow: hidden;
+}
+
+.container_Yaros .part-1_Yaros{
+	display: flex;
+	margin-bottom: 55px;
+}
+
+.container_Yaros .part-1_Yaros .part-1-1_Yaros{
+	padding: 35px 50px 0 0;
+	width: 55%;
+}
+
+.container_Yaros .part-1_Yaros .part-1-1_Yaros img{
+	margin-bottom: 20px;
+	width: 286px;
+}
+
+.container_Yaros .part-1_Yaros .part-1-1_Yaros p{
+	color: #fff;
+	font-family: IBM Plex Serif;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 0.095em;
+	line-height: 173.3%;
+	text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container_Yaros .part-1_Yaros .part-1-2_Yaros{
+	width: 45%;
+}
+
+.container_Yaros .part-1_Yaros .part-1-2_Yaros .woman-image{
+	display: block;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.container_Yaros .part-1_Yaros .part-1-2_Yaros .woman-image-title{
+	display: block;
+	margin: 0 auto;
+}
+
+.container_Yaros .part-2_Yaros{
+	position: relative;
+}
+
+.container_Yaros .part-2_Yaros .book-1_Yaros{
+	width: 556px;
+}
+
+.container_Yaros .part-2_Yaros .book-2_Yaros{
+	left: 336px;
+	position: absolute;
+	top: 140px;
+	width: 437px;
+}
